@@ -1,6 +1,9 @@
 import folium
 import pandas as pd
 from geopy.geocoders import Nominatim
+geolocator = Nominatim(user_agent="specify_your_app_name_here", timeout=3)
+from geopy.extra.rate_limiter import RateLimiter
+geocode = RateLimiter(geolocator.geocode, min_delay_seconds=0.1, max_retries=4)
 
 
 def get_data_dict(path):
@@ -79,7 +82,7 @@ def main():
     loc = [48.314775, 25.082925]
     map = folium.Map(location=loc)
     data = get_data_dict('/home/smint/Documents/sem2/labs/lab2/map/test.csv')
-    titles = get_titles(data[2010])
+    titles = get_titles(data[2015])
 
     map.add_child(get_map_of_numbers(titles, loc))
     map.save('test.html')
