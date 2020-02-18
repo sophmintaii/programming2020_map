@@ -28,7 +28,6 @@ processing, please wait...
 Done! Please, check test.html
 ```
 ![](map_example1.jpg)
-![](map_example2.jpg)
 ![](map_example3.jpg)
 
 ## Conclusion
