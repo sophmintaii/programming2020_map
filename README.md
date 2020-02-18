@@ -18,6 +18,12 @@ pip install pandas
 ## Structure of HTML file
 File consists of three parts (head, body, script).
 Also CSS and JavaScript are used and connected with HTML file appropriately.
+```
+<head> <\head> - includes header of the HTML file
+<body> <\body> - includes main part (the map itself)
+<script> <\script> - includes process to complete (functions etc.)
+<style> <\style> - helps to style HTML page
+```
 
 ## Example of running the program
 ```
