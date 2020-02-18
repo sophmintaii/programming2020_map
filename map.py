@@ -163,6 +163,5 @@ if __name__ == '__main__':
         except TypeError:
             continue
     print('pricessing, please wait...')
-
     main(inp_year, tuple((lat, lon)))
     print('Done! Please, check test.html')
