@@ -27,9 +27,9 @@ Type your longitude: 24.031111
 processing, please wait...
 Done! Please, check test.html
 ```
-![](map_example1.png)
-![](map_example2.png)
-![](map_example3.png)
+![](map_example1.jpg)
+![](map_example2.jpg)
+![](map_example3.jpg)
 
 ## Conclusion
 The map includes information about areas of the countries and places where movies were filmed based on given location and year.
